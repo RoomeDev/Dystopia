@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Sedan:ital@0;1&display=swap');
 
+@media screen and (max-width: 992px){
+    body{
 
+    }    
+}
 body{
 
     background-image: url('Copy of Dystopia.png');
@@ -10,6 +14,11 @@ body{
     background-position-x: center;
 }
 
+@media screen and (max-width: 992px){
+    body{
+        
+    }    
+}
 .container{
     padding-top: 100px;
     display: flex;
@@ -19,7 +28,8 @@ body{
 }
 
 .container2{
-    padding-top: 100px;
+    margin-top: 160px;
+    padding: 0;
     display: flex;
     align-items: flex-end;
     justify-content: center
@@ -32,22 +42,33 @@ h1{
     font-weight: 100;
     font-size: 60px;
     padding-bottom: 0;
+    margin-bottom: 5px;
 }
 
 h2{
+    margin: 0;
+    text-align: center;
     color: white;
     font-weight: 100;
-    padding-left: 80px;
-    font-family: "Abel", sans-serif;
-    font-size: 20px
+    font-family: "Sedan", serif;
+    font-size: 25px
 }
 
 h3{
+    margin-bottom: 70px;
+    color: white;
+    font-weight: 200;
+    text-align: center;
     font-family: "Abel", sans-serif;
     font-size: 15px
+    
 }
 
+
 button{
+    margin-left: 25px;
+    align-self: center;
+    align-content: center;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     font-family: "Sedan", serif;
     font-size: 13px;
@@ -60,8 +81,6 @@ button{
     padding-left: 20px;
     width: 125px;
     height: 36px;
-    
-    align-self: center;
 }
 
 button:hover{
