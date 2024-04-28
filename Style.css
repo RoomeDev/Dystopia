@@ -16,6 +16,13 @@ body{
         background-image: url('Untitled design 1.png');
     }    
 }
+@media screen and (max-width: 694px){
+    body{
+        background-position-y: -260px;
+        background-position: center ;
+        background-image: url('Untitled design 1.png');
+    }    
+}
 
 .container{
     padding-top: 100px;
