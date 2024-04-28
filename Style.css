@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Sedan:ital@0;1&display=swap');
 
-@media screen and (max-width: 992px){
-    body{
-
-    }    
-}
 body{
 
     background-image: url('Copy of Dystopia.png');
@@ -14,11 +9,12 @@ body{
     background-position-x: center;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 1126){
     body{
-        
+        background-size: 10%;
     }    
 }
+
 .container{
     padding-top: 100px;
     display: flex;
