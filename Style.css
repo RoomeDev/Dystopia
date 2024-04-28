@@ -3,6 +3,7 @@
 
 body{
 
+    background-repeat: no-repeat; background-size: cover;
     background-image: url('Copy of Dystopia.png');
     background-size: 100%;
     background-position-y: -260px;
@@ -11,7 +12,8 @@ body{
 
 @media screen and (max-width: 1126){
     body{
-        background-size: 10%;
+        background-position: center center;
+        background-image: url('Untitled design 1.png');
     }    
 }
 
