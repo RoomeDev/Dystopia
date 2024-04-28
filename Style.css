@@ -10,7 +10,7 @@ body{
     background-position-x: center;
 }
 
-@media screen and (max-width: 1126){
+@media screen and (max-width: 1126px){
     body{
         background-position: center center;
         background-image: url('Untitled design 1.png');
