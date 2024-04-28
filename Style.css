@@ -4,7 +4,7 @@
 body{
 
     background-repeat: no-repeat; background-size: cover;
-    background-image: url('Copy of Dystopia.png');
+    background-image: url('Background.png');
     background-size: 100%;
     background-position-y: -260px;
     background-position-x: center;
@@ -13,16 +13,23 @@ body{
 @media screen and (max-width: 1126px){
     body{
         background-position: center center;
-        background-image: url('Untitled design 1.png');
+        background-image: url('1126.png');
     }    
 }
-@media screen and (max-width: 694px){
+@media screen and (max-width: 658px){
     body{
-        background-position-y: -260px;
-        background-position: center ;
-        background-image: url('Untitled design 1.png');
+        background-position: center center;
+        background-image: url('658.png');
     }    
 }
+
+@media screen and (max-width: 385px){
+    body{
+        background-position: center center;
+        background-image: url('385.png');
+    }    
+}
+
 
 .container{
     padding-top: 100px;
