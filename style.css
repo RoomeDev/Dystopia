@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Sedan:ital@0;1&display=swap');
 
 body{
-
+    user-select: none;
+    -webkit-user-select: none;
     background-repeat: no-repeat; background-size: cover;
     background-image: url('1.png');
     background-size: 100%;
@@ -48,6 +49,7 @@ body{
 }
 
 h1{
+    
     align-self: center;
     font-family: "Sedan", serif;
     color: white;
